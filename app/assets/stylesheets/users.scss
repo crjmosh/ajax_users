@@ -1,0 +1,38 @@
+#show-box {
+	position: fixed;
+	width: 500px;
+	height: 260px;
+	top: 50%;
+	left: 50%;
+	margin-top: -130px;
+	margin-left: -250px;
+	color: white;
+	background-color: grey;
+	border-radius: 25px;
+	z-index: 2;
+	display: none;
+}
+
+#show-box-cancel {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.35);
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+}
+
+.flash {
+	width: 100%;
+	height: 25px;
+	font-size: 20px;
+	color: white;
+	line-height: 25px;
+	text-align: center;
+}
+
+.success {
+	background-color: #4CAF50;
+}
